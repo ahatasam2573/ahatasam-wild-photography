@@ -1,17 +1,17 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes } from 'react-router-dom';
-import Home from './Pages/Home/Home/Home';
-import About from './Pages/About/About';
-import Header from './Pages/Shared/Header/Header';
-import Footer from './Pages/Shared/Footer/Footer';
-import ServiceDetail from './Pages/ServiceDetail/ServiceDetail';
-import NotFound from './Pages/Shared/NotFound/NotFound';
-import Blogs from './Pages/Blogs/Blogs';
-import Login from './Pages/Login/Login/Login';
-import Register from './Pages/Login/Register/Register';
-import CheckOut from './Pages/CheckOut/CheckOut/CheckOut';
-import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
+import Home from './pages/Home/Home/Home'
+import About from './pages/About/About'
+import Header from './pages/Shared/Header/Header';
+import Footer from './pages/Shared/Footer/Footer';
+import ServiceDetail from './pages/ServiceDetails/ServiceDetails';
+import NotFound from './pages/Shared/NotFound/NotFound';
+import Blogs from './pages/Blogs/Blogs';
+import Login from './pages/Login/Login/Login';
+import Register from './pages/Login/Register/Register';
+import CheckOut from './pages/CheckOut/CheckOut/CheckOut';
+import RequireAuth from './pages/Login/RequireAuth/RequireAuth';
 
 function App() {
   return (
